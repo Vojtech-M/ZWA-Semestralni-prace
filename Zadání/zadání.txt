@@ -1,0 +1,14 @@
+Cíl: Umožnit rezervování motokárové trati na určitý čas a poskytnout informace.
+
+Uživatelské role: nepřihlášení uživatelé, přihlášení (zákazníci + správce)
+
+popis:
+Na stránce jsou informace ohledně otevírací doby, fungování a restauraci
+Přes formulář je možné udělat si rezervaci dráhy na určitý čas
+
+Funkce podle rolí:
+Nepřihlášení uživatelé mohou prohlížet informace o provozu dráhy/restaurace
+Přihlášení uživatelé mohou rezervovat dráhu, na profilu ukládat své časy na trati
+Správce může mazat uživatele, upravovat rezervace (rušit)
+
+Stránky: hlavní stránka, registrace/přihlášení, informace o restauraci, ceník, rezervace, profil
