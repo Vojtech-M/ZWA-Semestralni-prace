@@ -1,5 +1,5 @@
-# ZWA
-Semestral work for subject on CTU FEL
+# Stránka motokárového centra - Semestrální práce ZWA
+Webová aplikace pro vytváření rezervací
 
 
 
