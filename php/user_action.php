@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $errors['current_password_change'] = validate_current_password($currentPassword, $user['password']);
                 $errors['new_password_change'] = validatePassword($newPassword, $confirmPassword);
                 $errors = array_filter($errors);
-                // If no errors, update the password\
+                // If no errors, update the password
                 $newPassword = password_hash($newPassword, PASSWORD_DEFAULT);
                 if (empty($errors)) {
                     $user_data_result =  "Heslo bylo úspěšně změněno.";
@@ -143,7 +143,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 // If no errors, update the user in the database
                 if (empty($errors)) {
                 
-                    // Update the user data in the database (assuming you have a function like this)
+                    // Update the user data in the database
                     editUser($id_edit_user, $role_edit_user, $firstname_edit_user, $lastname_edit_user, $email_edit_user, $phone_edit_user, $user['password'], $fileNameNew_edit_user);
                     $user_data_result = "Uživatel byl úspěšně aktualizován.";
                     // Redirect to the profile page after successful update
